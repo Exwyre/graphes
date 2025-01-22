@@ -9,4 +9,4 @@ jobs:
     - name: Installation
       run: sudo apt-get install -y graphviz
     - name: Lancement graphviz
-      run: graphviz1.sh g1
+      run: ./graphiz1.sh g1
