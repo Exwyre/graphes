@@ -1,5 +1,6 @@
 graph {
-0 [shape="box"];
+node [shape="star" style="filled" fillcolor="aqua"];
+edge [fontsize="20pt" color="red"];
 B--G [label="4"];
 B--H [label="2"];
 B--A [label="1"];
