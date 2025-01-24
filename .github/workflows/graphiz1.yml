@@ -9,7 +9,7 @@ jobs:
     - name: Installation
       run: sudo apt-get install -y graphviz
     - name: Lancement graphviz
-      run: ./graphiz2.sh g1
+      run: ./graphiz2.sh
     - name: upload du resultat
       uses: actions/upload-artifact@v4
       with:
